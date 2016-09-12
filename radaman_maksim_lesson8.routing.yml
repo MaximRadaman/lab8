@@ -1,0 +1,7 @@
+radaman_maksim_lesson8.cache_page:
+  path: 'radaman-maksim-lesson8'
+  defaults:
+    _title: 'Logging && cache'
+    _form: '\Drupal\radaman_maksim_lesson8\Forms\CacheLoggerForm'
+  requirements:
+    _permission: 'view content'

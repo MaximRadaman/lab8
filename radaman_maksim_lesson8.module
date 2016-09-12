@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains radaman_maksim_lesson8.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function radaman_maksim_lesson8_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the radaman_maksim_lesson8 module.
+    case 'help.page.radaman_maksim_lesson8':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Drupal 8 Cache') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,4 @@
+services:
+  radaman_maksim_lesson8.multiple_channels_logger:
+    class: Drupal\radaman_maksim_lesson8\Logger
+    arguments: ['@logger.factory']
